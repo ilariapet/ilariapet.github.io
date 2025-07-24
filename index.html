@@ -1,1 +1,214 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ilaria Petreti - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #eee;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm Ilaria Petreti, a Data Scientist helping organizations unlock the value of Big Data through cutting-edge AI and Digital Innovation.</p>
+  </header>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>After a first experience in the healthcare sector, I got a Postgraduate Master in Data Science, completing a thesis focused on Machine Learning. Since 2020, I have worked on a variety of projects in Machine Learning, Deep Learning, and Natural Language Processing applied to Information Retrieval systems. My work has focused in particular on integrating Learning to Rank algorithms and Search Quality Evaluation frameworks within e-commerce platforms, with the goal of improving both performance and the relevance of search results. More recently, I have been involved in projects exploring the integration of Large Language Models (LLMs) into search engines, aiming to enhance user experience through semantic understanding and generative capabilities.  I also provide consulting services on Apache Solr and Elasticsearch, supporting organizations in optimizing their search infrastructure. Additionally, I am an active member of the Information Retrieval research community: I contribute to open source projects, share insights through blog posts and technical talks, and regularly participate in international conferences such as Berlin Buzzwords.</p>
+  </section>
+
+  <section class="section">
+    <h2>💻 Open Source Contributions</h2>
+
+    <h3>Apache Lucene</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/apache/lucene/pull/12169" target="_blank">
+          GITHUB#12169: Introduce a new token filter to expand synonyms based on Word2Vec DL4j models. (Daniele Antuzi, Ilaria Petreti, Alessandro Benedetti)
+        </a>
+      </li>
+    </ul>
+
+    <h3>Apache Solr</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/apache/solr/pull/1487" target="_blank">
+          SOLR-15493: Throw an error message if the feature store doesn't exist. (Ilaria Petreti via Alessandro Benedetti)
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/apache/solr/pull/3328" target="_blank">
+          SOLR-17726: MoreLikeThis to support copy-fields (Ilaria Petreti via Alessandro Benedetti)
+        </a>
+      </li>
+    </ul>
+  </section>
+
+
+  <section class="section">
+    <h2>✍️ Blog Posts/ Tips & Tricks</h2>
+
+    <h3>Learning to Rank (LTR)</h3>
+    <ul>
+      <li><a href="https://sease.io/2020/12/a-learning-to-rank-project-on-a-daily-song-ranking-problem.html" target="_blank">A Learning to Rank Project on a Daily Song Ranking Problem</a></li>
+      <li><a href="https://sease.io/2021/02/a-learning-to-rank-project-on-a-daily-song-ranking-problem-part-2.html" target="_blank">A Learning to Rank Project on a Daily Song Ranking Problem – Part 2</a></li>
+      <li><a href="https://sease.io/2021/03/a-learning-to-rank-project-on-a-daily-song-ranking-problem-part-3.html" target="_blank">A Learning to Rank Project on a Daily Song Ranking Problem – Part 3</a></li>
+      <li><a href="https://sease.io/2021/05/a-learning-to-rank-project-on-a-daily-song-ranking-problem-part-4.html" target="_blank">A Learning to Rank Project on a Daily Song Ranking Problem – Part 4</a></li>
+      <li><a href="https://sease.io/2022/07/how-to-split-your-dataset-into-train-and-test-sets-for-evaluating-learning-to-rank-models.html" target="_blank">Train and Test Sets Split for Evaluating Learning To Rank Models</a></li>
+      <li><a href="https://sease.io/2022/09/how-to-split-your-dataset-into-train-and-test-sets-for-evaluating-learning-to-rank-models-2.html" target="_blank">Train and Test Sets Split for Evaluating Learning To Rank Models – Part 2</a></li>
+      <li><a href="https://sease.io/2021/06/drop-constant-features-a-real-world-ltr-scenario.html" target="_blank">Drop constant features: a real-world Learning To Rank scenario</a></li>
+    </ul>
+
+    <h3>Apache Lucene</h3>
+    <ul>
+      <li><a href="https://sease.io/2023/04/word2vec-model-to-generate-synonyms-on-the-fly-in-apache-lucene-introduction.html" target="_blank">Word2Vec Model To Generate Synonyms on the Fly in Apache Lucene – Introduction</a></li>
+      <li><a href="https://sease.io/2023/06/word2vec-model-to-generate-synonyms-on-the-fly-in-apache-lucene-w2v-algorithm.html" target="_blank">Word2Vec Model To Generate Synonyms on the Fly in Apache Lucene – W2V Algorithm</a></li>
+      <li><a href="https://sease.io/2023/08/word2vec-model-to-generate-synonyms-performance-tests.html" target="_blank">Word2Vec Model To Generate Synonyms – Performance Testing</a></li>
+    </ul>
+
+    <h3>Apache Solr</h3>
+    <ul>
+      <li><a href="https://sease.io/2023/01/apache-solr-neural-search-tutorial.html" target="_blank">Apache Solr Neural Search Tutorial</a></li>
+      <li><a href="https://sease.io/2023/02/benchmark-apache-solr-performance-with-apache-jmeter.html" target="_blank">Benchmark Apache Solr Performance with Apache JMeter</a></li>
+      <li><a href="https://sease.io/2023/05/apache-solr-neural-highlighting-plugin.html" target="_blank">Apache Solr Neural Highlighting Plugin</a></li>
+      <li><a href="https://sease.io/2024/08/from-natural-language-to-structured-solr-queries-using-llms.html" target="_blank">From Natural Language to Structured Solr Queries using LLMs</a></li>
+      <li><a href="https://sease.io/2024/10/evaluating-solr-vector-search-with-quepid.html" target="_blank">Evaluating Solr Vector Search with Quepid</a></li>
+      <li><a href="https://sease.io/2025/07/why-solr-mlt-ignores-your-copyfield-how-to-deal-with-it.html" target="_blank">Why Solr More Like This Ignores Your copyField – How to Deal With It</a></li>
+      <li><a href="https://sease.io/2024/11/apache-solr-filter-queries-integer-or-string-fields.html" target="_blank">Apache Solr Filter Queries: Integer or String Fields?</a></li>
+    </ul>
+
+    <h3>Elasticsearch</h3>
+    <ul>
+      <li><a href="https://sease.io/2023/03/elasticsearch-neural-search-tutorial.html" target="_blank">Elasticsearch Neural Search Tutorial</a></li>
+      <li><a href="https://sease.io/2023/03/elasticsearch-neural-search-tutorial-platinum-enterprise.html" target="_blank">Elasticsearch Neural Search Tutorial (Platinum/Enterprise)</a></li>
+      <li><a href="https://sease.io/2023/03/online-search-quality-evaluation-with-kibana-introduction.html" target="_blank">Online Search Quality Evaluation With Kibana – Introduction</a></li>
+      <li><a href="https://sease.io/2023/05/elasticsearch-neural-search-improvements-in-8-6-and-8-7.html" target="_blank">Elasticsearch Neural Search Improvements in 8.6 and 8.7</a></li>
+      <li><a href="https://sease.io/2023/06/online-search-quality-evaluation-with-kibana-visualization-examples.html" target="_blank">Online Search Quality Evaluation With Kibana – Visualization Examples</a></li>
+      <li><a href="https://sease.io/2023/07/elasticsearch-relevance-engine-combining-ai-with-elastics-text-search.html" target="_blank">Elasticsearch Relevance Engine: Combining AI With Elastic’s Text Search</a></li>
+      <li><a href="https://sease.io/2023/09/how-to-use-python-api-to-index-json-data-in-elasticsearch.html" target="_blank">How to Use Python API to Index JSON Data in Elasticsearch</a></li>
+      <li><a href="https://sease.io/2024/03/find-and-replace-in-elasticsearch-fields.html" target="_blank">Find and Replace in Elasticsearch Fields</a></li>
+      <li><a href="https://sease.io/2023/06/online-search-quality-evaluation-with-kibana-queries-in-common.html" target="_blank">Online Search Quality Evaluation With Kibana – Queries in Common</a></li>
+      <li><a href="https://sease.io/2024/08/how-to-calculate-aggregations-in-elasticsearch-as-percentages.html" target="_blank">How to calculate aggregations in Elasticsearch as percentages?</a></li>
+    </ul>
+
+    <h3>Opensearch</h3>
+    <ul>
+      <li><a href="https://sease.io/2024/01/opensearch-neural-search-plugin-tutorial-additional-useful-tools.html" target="_blank">OpenSearch Neural Search Plugin Tutorial: Additional Useful Tools</a></li>
+      <li><a href="https://sease.io/2024/01/opensearch-knn-plugin-tutorial.html" target="_blank">OpenSearch KNN Plugin Tutorial</a></li>
+      <li><a href="https://sease.io/2024/03/opensearch-neural-search-tutorial-how-filtering-works.html" target="_blank">OpenSearch Neural Search Tutorial: How Filtering Works</a></li>
+      <li><a href="https://sease.io/2024/04/opensearch-neural-search-tutorial-hybrid-search.html" target="_blank">OpenSearch Neural Search Tutorial: Hybrid Search</a></li>
+      <li><a href="https://sease.io/2024/07/opensearch-neural-sparse-search-tutorial.html" target="_blank">OpenSearch Neural Sparse Search Tutorial</a></li>
+    </ul>
+
+    <h3>Python</h3>
+    <ul>
+      <li><a href="https://sease.io/2021/10/how-to-manage-a-large-json-file-efficiently-and-quickly.html" target="_blank">How to manage large JSON files in Python efficiently and quickly</a></li>
+      <li><a href="https://sease.io/2021/11/how-to-manage-large-json-efficiently-and-quickly-multiple-files.html" target="_blank">How to manage large JSON efficiently and quickly: multiple files</a></li>
+      <li><a href="https://sease.io/2022/03/how-to-deal-with-too-many-object-in-pandas-from-json-parsing.html" target="_blank">How to Deal with Too Many ‘object’ in Pandas from JSON Parsing</a></li>
+      <li><a href="https://sease.io/2022/11/how-to-import-pandas-in-aws-lambda.html" target="_blank">How to Import Pandas in AWS Lambda</a></li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>🎤 Conference Talks & Videos</h2>
+
+    <h3>London Information Retrieval Meetup</h3>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=Q2YkT3fQJOo&t=2221s" target="_blank">A Learning to Rank Project on a Daily Song Ranking Problem - 2020</a></li>
+      <li><a href="https://www.youtube.com/watch?v=1oQWtv75SJg&t=2s" target="_blank">Learning to Rank Libraries Pros/Cons - 2020</a></li>
+      <li><a href="https://www.youtube.com/watch?v=HMTnZGupx8Y&t=261s" target="_blank">Explainability for Learning to Rank - 2021</a></li>
+      <li><a href="https://www.youtube.com/watch?v=tWCY_lt1SnY&list=PL3MGdCOBPhsccrQRGrUjQlzRSdlWrcF9N&index=13" target="_blank">How to Implement Online Search Quality Evaluation with Kibana - 2022</a></li>
+    </ul>
+
+    <h3>Berlin Buzzwords</h3>
+    <ul>
+      <li><a href="https://pretalx.com/bbuzz22/talk/UYZAUX/" target="_blank">Berlin Buzzwords 2022 - Word2Vec model to generate synonyms on the fly in Apache Lucene</a></li>
+      <li><a href="https://program.berlinbuzzwords.de/berlin-buzzwords-2023/talk/PRQ7PV/" target="_blank">Berlin Buzzwords 2023 - How to Implement Online Search Quality Evaluation with Kibana</a></li>
+      <li><a href="https://pretalx.com/bbuzz22/talk/UYZAUX/" target="_blank">Berlin Buzzwords 2024 - From Natural Language to Structured Solr Queries using LLMs</a></li>
+      <li><a href="https://www.youtube.com/watch?v=V4f0Pgqp-KA&list=PLq-odUc2x7i8dTff006Wg2r0fsseSGrpJ&index=25&t=9s" target="_blank">Berlin Buzzwords 2025 - AI-Powered Search Results Navigation with LLMs & JSON Schema</a></li>
+    </ul>
+
+    <h3>ElasticON</h3>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=pkNJXcoTw0w&list=PL_mJOmq4zsHZRHwHE_ggYX6BgJ3Y3mgRA&index=20" target="_blank">How to Implement Online Search Quality Evaluation with Kibana - 2023</a></li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>📬 Contact</h2>
+    <p>
+      Email: <a href="mailto:petreti.ilaria@gmail.com">petreti.ilaria@gmail.com</a><br />
+      LinkedIn: <a href="https://www.linkedin.com/in/ilaria-petreti-422119104/" target="_blank">linkedin.com/in/ilaria-petreti-422119104/</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ilaria Petreti
+  </footer>
+
+</body>
+</html>
